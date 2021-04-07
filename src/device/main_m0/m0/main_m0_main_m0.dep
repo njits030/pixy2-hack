@@ -1,0 +1,29 @@
+Dependencies for Project 'main_m0', Target 'main_m0': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\src\main_m0.c)(0x5FFCBA13)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\" -I . -I ..\libpixy_m0\inc -I .\inc -I ..\..\common\inc -I ..\common\inc -I inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DCORE_M0 -DIPC_SLAVE -DPIXY -DKEIL-o .\m0\main_m0.o --list_dir ".\\" --list --omf_browse .\m0\main_m0.crf --depend .\m0\main_m0.d)
+I (..\common\inc\debug.h)(0x5FFCBA13)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E9122)
+I (..\common\inc\debug_frmwrk.h)(0x5FFCBA13)
+I (..\common\inc\lpc43xx_uart.h)(0x5FFCBA13)
+I (..\common\inc\lpc43xx.h)(0x5FFCBA13)
+I (..\libpixy_m0\inc\core_cm0.h)(0x5FFCBA13)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E9122)
+I (..\common\inc\core_cmInstr.h)(0x5FFCBA13)
+I (..\common\inc\core_cmFunc.h)(0x5FFCBA13)
+I (..\common\inc\system_LPC43xx.h)(0x5FFCBA13)
+I (..\common\inc\lpc_types.h)(0x5FFCBA13)
+I (..\libpixy_m0\inc\chirp.h)(0x5FFCBA13)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E9122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E9122)
+I (..\common\inc\cycletimer.h)(0x5FFCBA13)
+I (..\common\inc\pixyvals.h)(0x5FFCBA13)
+I (..\libpixy_m0\inc\exec_m0.h)(0x5FFCBA13)
+I (..\libpixy_m0\inc\frame_m0.h)(0x5FFCBA13)
+I (..\common\inc\cameravals.h)(0x606D8D5D)
+I (..\libpixy_m0\inc\rls_m0.h)(0x5FFCBA13)
+F (.\src\startup_LPC43xx_m0.s)(0x5FFCBA13)(--cpu Cortex-M0 --li -g --16 --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 534" --pd "NO_CRP SETA 1" --pd "IPC_SLAVE SETA 1"--list .\startup_lpc43xx_m0.lst --xref -o .\m0\startup_lpc43xx_m0.o --depend .\m0\startup_lpc43xx_m0.d)
+F (.\src\equeue.c)(0x606C2307)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\" -I . -I ..\libpixy_m0\inc -I .\inc -I ..\..\common\inc -I ..\common\inc -I inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DCORE_M0 -DIPC_SLAVE -DPIXY -DKEIL-o .\m0\equeue.o --list_dir ".\\" --list --omf_browse .\m0\equeue.crf --depend .\m0\equeue.d)
+I (..\..\common\inc\equeue.h)(0x5FFCBA13)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E9122)
+I (..\common\inc\pixyvals.h)(0x5FFCBA13)
+F (..\libpixy_m0\libpixy_m0.lib)(0x606D8D5E)()
