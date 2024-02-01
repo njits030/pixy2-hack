@@ -1,5 +1,7 @@
 Pixy2 README
 
+Removed the neighbourhood averaging for RGB values in /src/device/ and changed the timings for the clock driven signal accordingly.  
+
 This directory contains:
 
 /releases - this directory contains binaries for various releases 
